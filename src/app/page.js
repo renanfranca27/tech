@@ -11,37 +11,34 @@ export default function Home() {
           <section>
              TECH SOLUTIONS
           </section>
+          <ul className={styles.menubar}>
         <li>Inicio</li>
         <li>Serviços</li>
         <li>Sobre</li>
         <li>contato</li>
+
+          </ul>
       </div>
 
     <div className={styles.head}>
-      <section id={styles.texto}>
-          <h1>
-            Soluções de TI para <br></br>impulsionar seu negócio
-          </h1>
-          <section>
-            <p>
-              Transforme sua empresa com tecnologia de ponta e suporte <br></br> especializado
-            </p>
-          </section>
+  <div className={styles.heroContent}>
+    {/* Texto */}
+    <section className={styles.texto}>
+      <h1>Soluções de TI para <br /> impulsionar seu negócio</h1>
+      <p>Transforme sua empresa com tecnologia de ponta e suporte <br /> especializado</p>
+      <div className={styles.botoes}>
+        <button className={styles.botao1}>Fale Conosco</button>
+        <button className={styles.botao2}>Nossos Serviços</button>
+      </div>
+    </section>
 
-          <section className={styles.boto}>
-              <button className={styles.botao1}>
-                Fale Conosco
-              </button>
-
-            <section className={styles.botao2}>
-                          <button>Nossos Serviços</button>
-            </section>
-          </section>
-      </section>
-    </div>
-
-    </div>
-
+    {/* Imagem */}
+    <section className={styles.heroImage}>
+      <Image src="/3d-render.png" alt="Descrição da imagem" width={600} height={400} />
+    </section>
+  </div>
+</div>
+</div>
 
 
 
