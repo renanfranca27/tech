@@ -8,7 +8,9 @@ export default function Home() {
     <div className={styles.container}>
       {/* Menu com estrutura correta */}
       <div className={styles.menu}>
-          <section>
+
+          <section className={styles.navbar}>
+            <Image src="/icone.svg" alt="Descrição da imagem"  width={100} height={70}/>
              TECH SOLUTIONS
           </section>
           <ul className={styles.menubar}>
@@ -34,7 +36,7 @@ export default function Home() {
 
     {/* Imagem */}
     <section className={styles.heroImage}>
-      <Image src="/3d-render.png" alt="Descrição da imagem" width={600} height={400} />
+      <Image src="/programming-amico.svg" alt="Descrição da imagem" width={700} height={500} />
     </section>
   </div>
 </div>
