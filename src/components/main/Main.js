@@ -13,9 +13,17 @@ export default function Main(){
       </p>
   </div>
   <div className="conteudo">
-      <section>
-        
-      </section>
+    <div className="consultoria">
+
+<section className="texto1"> 
+  <h2>
+    consultoria em TI
+  </h2>
+<p>
+  Análise completa da infraestrutura<br/> tecnológica da sua empresa com <br/> recomendações estratégicas para<br/> otimização.
+</p>
+</section>
+    </div>
   </div>
     
 </div>

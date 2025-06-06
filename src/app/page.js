@@ -23,7 +23,7 @@ export default function Home() {
         <div className={styles.heroContent}>
           {/* Texto */}
           <section className={styles.texto}>
-            <h1>
+            <h1>        
               Soluções de TI para <br /> impulsionar seu negócio
             </h1>
             <p>

@@ -4,10 +4,12 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
 }
-.TextoMain{
+.TextoMain {
   font-size: 1.4rem;
   padding: 10px;
   border: solid 1px red;
   font-family: "Bebas Neue", sans-serif;
 }
+
