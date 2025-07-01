@@ -1,5 +1,5 @@
 import styld from "@/components/main/main.css"
-
+import Image from "next/image";
 export default function Main(){
 
     return(
@@ -16,6 +16,15 @@ export default function Main(){
     <div className="consultoria">
 
 <section className="texto1"> 
+  <section>
+   <Image
+         src="/consultoria.gif"
+         alt="Meu GIF"
+         width={500}
+         height={300}
+         unoptimized={true} // Opcional, mas recomendado para GIFs
+       />
+  </section>
   <h2>
     consultoria em TI
   </h2>

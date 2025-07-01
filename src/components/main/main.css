@@ -3,13 +3,25 @@
   color: black;
   align-items: center;
   justify-content: center;
-  text-align: center;
   flex-direction: column;
+  padding: 20px;
 }
 .TextoMain {
   font-size: 1.4rem;
   padding: 10px;
   border: solid 1px red;
   font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+}
+.conteudo{
+  padding: 20px;
+}
+.texto1{
+  padding: 10px;
+  height: 200px;
+  width: 250;
+background: rgb(247, 244, 244);
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+border-radius: 10px;
 }
 
