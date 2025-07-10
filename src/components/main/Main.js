@@ -18,11 +18,10 @@ export default function Main(){
 <section className="texto1"> 
   <section>
    <Image
-         src="/consultoria.gif"
+         src="/consultoria.svg"
          alt="Meu GIF"
-         width={500}
-         height={300}
-         unoptimized={true} // Opcional, mas recomendado para GIFs
+         width={30}
+         height={40}
        />
   </section>
   <h2>
