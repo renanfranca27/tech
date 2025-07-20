@@ -12,11 +12,25 @@
   border: solid 1px red;
   font-family: "Bebas Neue", sans-serif;
   text-align: center;
+  margin-top: 12px;
 }
-.conteudo{
-  margin-top: 100px;
-  
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
 }
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
 .texto1{
   padding: 10px;
   height: 250px;
@@ -24,5 +38,48 @@
 background: rgb(247, 244, 244);
 box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 border-radius: 10px;
+margin-top: 20px;
 }
+.texto2{
+  padding: 10px;
+  height: 250px;
+  width: 320px;    
+  background: rgb(247, 244, 244);
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+border-radius: 10px;  
+margin-top: 20px;
 
+}
+.infraestrutura{
+  padding: 10px;
+  height: 250px;
+  width: 320px;
+  background: rgb(247, 244, 244);
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+border-radius: 10px;
+  margin-top: 20px; 
+}
+.suporte-tecnico{
+  padding: 10px;
+  height: 250px;
+  width: 320px;
+  background: rgb(247, 244, 244);
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+border-radius: 10px;
+  margin-top: 20px; 
+}
+.texto4{
+  padding: 10px;
+  height: 250px;
+  width: 320px;
+}
+.GestaodeRedes{
+
+  padding: 10px;
+  height: 250px;
+  width: 320px;
+  background: rgb(247, 244, 244);
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+border-radius: 10px;
+  margin-top: 20px; 
+}
