@@ -18,16 +18,11 @@ export default function Main(){
 
 <div className="texto1"> 
   <div className="icone">
-    
-   <Image
-         src="/consultoria.svg"
-         alt="Meu GIF"
-         width={30}
-         height={40}
-       />
+
+   <Image src="/consutoria.png" alt="Descrição da imagem" width={30} height={30} />
+
   </div>
   <div className="conteudo">
-
   <h2>
     consultoria em TI
   </h2>
@@ -38,16 +33,15 @@ export default function Main(){
 
 </div>
     </div>
-
     
   </div>
     <div className="suporte">
       <div className="texto2">
         <div className="icone">
           <Image
-            src="/suporte.svg"
+            src="/seguranca.png"
             alt="Meu GIF"
-            width={30}
+            width={40}
             height={40}
           />
         </div>
@@ -56,7 +50,7 @@ export default function Main(){
             Segurança da Informação
           </h2>
           <p>
-            Proteção completa contra ameaças cibernéticas, incluindo firewall, antivírus e treinamento de equipe.         </p>
+            Proteção completa contra ameaças cibernéticas, incluindo firewall, antivírus e treinamento de equipe.</p>
         </div>
 
       </div>
@@ -66,9 +60,9 @@ export default function Main(){
       <div className="texto3">
         <div className="icone">
           <Image
-            src="/infraestrutura.svg"
+            src="/nuvem.png"
             alt="Meu GIF"
-            width={30}
+            width={40}
             height={40}
           />
         </div>
@@ -77,11 +71,10 @@ export default function Main(){
             Infraestrutura de TI
           </h2>
           <p>
-           Migração e gerenciamento de serviços em nuvem para maior flexibilidade, segurança e redução de custos.          </p>
+           Migração e gerenciamento de serviços em nuvem para maior flexibilidade, segurança e redução de custos. </p>
         </div>
 
       </div>
-
 
     </div>
     </div>
@@ -92,9 +85,9 @@ export default function Main(){
       <div className="texto4">
         <div className="icone">
           <Image
-            src="/suporte-tecnico.svg"
+            src="/suporte.png"
             alt="Meu GIF"
-            width={30}
+            width={40}
             height={40}
           />
         </div>
@@ -113,9 +106,9 @@ export default function Main(){
       <div className="texto5">
         <div className="icone">
           <Image
-            src="/gestao-de-redes.svg"
+            src="/gestao.png"
             alt="Meu GIF"
-            width={30}
+            width={40}
             height={40}
           />
         </div>
