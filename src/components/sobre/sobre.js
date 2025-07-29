@@ -4,7 +4,9 @@ export default function sobre(){
 
     return(
         <div className="container">
-                
+                <div className="sobre">
+
+                </div>
         </div>
 
 
