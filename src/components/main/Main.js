@@ -5,9 +5,9 @@ export default function Main(){
     return(
         <div className="main">
   <div className="TextoMain">
-      <h2>
+      <h3>
         Nosso Serviços
-      </h2>
+      </h3>
       <p>
         Oferecemos soluções completas para atender todas as necessidades <br/> de TI da sua empresa.
       </p>
@@ -23,9 +23,9 @@ export default function Main(){
 
   </div>
   <div className="conteudo">
-  <h2>
+  <h3>
     consultoria em TI
-  </h2>
+  </h3>
 <p>
   Análise completa da infraestrutura<br/> tecnológica da sua empresa com <br/> recomendações estratégicas para<br/> otimização.
 </p>
@@ -46,9 +46,9 @@ export default function Main(){
           />
         </div>
         <div className="conteudo">
-          <h2>
+          <h3>
             Segurança da Informação
-          </h2>
+          </h3>
           <p>
             Proteção completa contra ameaças cibernéticas, incluindo firewall, antivírus e treinamento de equipe.</p>
         </div>
@@ -67,9 +67,9 @@ export default function Main(){
           />
         </div>
         <div className="conteudo">
-          <h2>
+          <h3>
             Infraestrutura de TI
-          </h2>
+          </h3>
           <p>
            Migração e gerenciamento de serviços em nuvem para maior flexibilidade, segurança e redução de custos. </p>
         </div>
@@ -92,9 +92,9 @@ export default function Main(){
           />
         </div>
         <div className="conteudo">
-          <h2>
+          <h3>
             Suporte Técnico
-          </h2>
+          </h3>
           <p>
            Atendimento rápido e eficiente para resolver problemas técnicos e manter sua operação funcionando.
           </p>
@@ -113,9 +113,9 @@ export default function Main(){
           />
         </div>
         <div className="conteudo">
-          <h2>
+          <h3>
             Gestão de Redes
-          </h2>
+          </h3>
           <p>
            Implementação e manutenção de redes corporativas seguras, estáveis e de alto desempenho.
           </p>

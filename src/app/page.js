@@ -9,8 +9,8 @@ export default function Home() {
       {/* Menu com estrutura correta */}
       <div className={styles.menu}>
         <section className={styles.navbar}>
-          <Image src="/icone.svg" alt="Descrição da imagem" width={90} height={60} />
-          TECH SOLUTIONS
+          <Image src="/icone.svg" alt="Descrição da imagem" width={60} height={40} />
+           <h4>TECH SOLUTIONS </h4>
         </section>
         <ul className={styles.menubar}>
           <li>Inicio</li>
@@ -38,7 +38,7 @@ export default function Home() {
 
           {/* Imagem */}
           <section className={styles.heroImage}>
-            <Image src="/programming-amico.svg" alt="Descrição da imagem" width={700} height={550} />
+            <Image src="/programming-amico.svg" alt="Descrição da imagem" width={700} height={540} />
           </section>
         </div>
       </div>
