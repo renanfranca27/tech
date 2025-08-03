@@ -40,7 +40,10 @@
   display: inline-block;
   margin-bottom: 16px;
 }
-
+.icone img{
+  width: 20px;
+  height: 20px;
+}
 .texto1{
   padding: 10px;
   height: 284px;

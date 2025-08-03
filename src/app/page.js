@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Main from "@/components/main/Main.js";
-import sobre from "@/components/sobre/sobre.js";
+import Sobre from "@/components/sobre/Sobre.js";
 
 export default function Home() {
   return (
@@ -45,7 +45,7 @@ export default function Home() {
 
       {/* Componente Main */}
       <Main />
-      <sobre/>
+      <Sobre />
     </div>
   );
 }
