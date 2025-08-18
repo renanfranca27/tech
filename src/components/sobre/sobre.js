@@ -14,15 +14,19 @@ export default function sobre(){
                 <li><span class="check">✔</span> Soluções tecnológicas de ponta</li>
                 <li><span class="check">✔</span> Compromisso com resultados</li>
             </ul>
+            <section className="bottao">
+                 <a href="#equipe" class="btn">Conheça Nossa Equipe</a>
+            </section>
         </div>
         <div class="ceo-info">
-            <div class="ceo-img">
-                <Image src="/images/ceo.jpg" alt="CEO da TechSolutions" width={150} height={150} className="ceo-photo" />
-            </div>
+            
             <div class="ceo-details">
+                <section className="ceo-img">
+                    <Image src="/renan.JPEG" alt="CEO da TechSolutions" width={150} height={150} className="ceo-photo" />  
+                </section>
                 <h3> Renan França</h3>
                 <p><strong>CEO & Fundador</strong></p>
-                <blockquote>&quot;Nossa missão é fornecer soluções tecnológicas que realmente façam a diferença no crescimento e na eficiência dos nossos clientes.&quot;</blockquote>
+                <blockquote>&quot;Nossa missão é fornecer soluções tecnológicas que realmente façam <br/> a diferença no crescimento e na eficiência dos nossos clientes.&quot;</blockquote>
             </div>
         </div>
         {/* <a href="#equipe" class="btn">Conheça Nossa Equipe</a> */} 
