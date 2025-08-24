@@ -2,6 +2,7 @@ import Image from "next/image";
 import styles from "./page.module.css";
 import Main from "@/components/main/Main.js";
 import Sobre from "@/components/sobre/Sobre.js";
+import Footer from "@/components/footer/footer.js";
 
 export default function Home() {
   return (
@@ -10,7 +11,7 @@ export default function Home() {
       <div className={styles.menu}>
         <section className={styles.navbar}>
           <Image src="/icone.svg" alt="Descrição da imagem" width={60} height={40} />
-           <h4>TECH SOLUTIONS </h4>
+           <h4>TECH ALT </h4>
         </section>
         <ul className={styles.menubar}>
           <li>Inicio</li>
@@ -46,6 +47,7 @@ export default function Home() {
       {/* Componente Main */}
       <Main />
       <Sobre />
+      <Footer />
     </div>
   );
 }

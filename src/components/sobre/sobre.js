@@ -2,6 +2,7 @@ import Image from "next/image";
 import styld from "@/components/sobre/sobre.css";
 export default function sobre(){
 
+    const newLocal = <li><span class="check">✔</span> Equipe altamente qualificada e certificada</li>;
     return(
         <body>
     <section class="about">
@@ -9,7 +10,7 @@ export default function sobre(){
             <h2>Sobre a TechSolutions</h2>
             <p>Na TechSolutions, oferecemos soluções tecnológicas personalizadas.<br/> Nossa missão é ajudar empresas de todos os portes a transformar <br/> desafios em oportunidades, com atendimento ágil e eficiente.</p>
             <ul>
-                <li><span class="check">✔</span> Equipe altamente qualificada e certificada</li>
+                {newLocal}
                 <li><span class="check">✔</span> Atendimento ágil e personalizado</li>
                 <li><span class="check">✔</span> Soluções tecnológicas de ponta</li>
                 <li><span class="check">✔</span> Compromisso com resultados</li>
